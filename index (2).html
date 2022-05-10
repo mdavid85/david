@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <title>LMS</title>
+</head>
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><span><img src="pic/lms2.png" alt=""></span></h2>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="index.html"><span class="fas fa-book"></span>
+                        <span>Novel</span></a>
+                </li>
+                <li>
+                    <a href="story.html"><span class="fas fa-book-open"></span>
+                        <span>Story</span></a>
+                </li>
+                <li>
+                    <a href="poem.html" class="active"><span class="fas fa-receipt"></span>
+                        <span>Poem</span></a>
+                </li>
+                <li>
+                    <a href="library.html"><span class="fas fa-book-journal-whills"></span>
+                        <span>Library</span></a>
+                </li>
+               
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="fas fa-bars"></span>
+                </label>
+               
+            </h2>
+
+            <div class="search-wrapper">
+                
+                <input type="search" placeholder="search" />
+                <span class="fas fa-search"></span>
+            </div>
+
+            <div class="user-wrapper">
+                
+                <div>
+                    <h4>Home</h4>
+                   <a href="book.html">
+                    <h4>Book</h4>
+                   </a> 
+                </div>
+            </div>
+        </header>
+
+
+    <div class="errorhidden">
+        <img src="img/close.png" class="close" alt="">
+        <p>One or more field's are empty</p>
+    </div>
+    <div class="signup">
+        <form action=""><br><br>
+            <p class="signuptxt">Signup</p><br><br>
+            <input id="input" class="input1" type="text" placeholder="Username"><br><br>
+            <input id="input" class="input2" type="email" placeholder="Email"><br><br>
+            <input id="input" class="input3" type="password" name="" id="" placeholder="Password"><br><br>
+            <select name="" id="" class="category">
+                <option value="poet">Usert</option>
+                <option value="aficionado">Library</option>
+            </select>
+            <br><br><br>
+            <p href="" class="submitbtn">Sign Up</p><br><br>
+            <center><p class="login" id="login">Login here</p></center>
+            <br>
+        </form>
+    </div>
+    <div class="logindivhidden">
+        <form action=""><br><br>
+            <p class="signuptxt">Login</p><br><br>
+            <input id="input" class="input4" type="text" placeholder="Username"><br><br>
+            <input id="input" class="input5" type="password" placeholder="Password"><br><br><br>
+            <p href="" class="loginbtn">Login</p><br><br>
+            <center><p class="login" id="signup">Signup here</p></center>
+        </form>
+    </div>
+
+    <div class="body"><br><br><br><br>
+        <!-- <img src="img/logo.png" class="logo" alt="">
+        <p class="title">Poem Selling</p>
+        <p class="pronounciation">/'pəʊɪm/</p><br> -->
+        <P class="content">Poem: A piece of writing in which the expression of feelings and 
+            ideas is given intensity by particular attention to 
+            diction (sometimes involving rhyme), rhythm, and imagery.
+        </P><br><br><br>
+        </div>
+        <script src="js/index.js"></script>
+</body>
+</html>
